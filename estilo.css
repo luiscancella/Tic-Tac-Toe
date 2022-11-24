@@ -1,0 +1,87 @@
+* { /* CSS RESET */
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+   }
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body {
+    background-color: rgb(126, 226, 151);
+    font-family: 'Silkscreen';
+}
+
+header section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 30vw;
+    margin: auto;
+    gap: 1%;
+}
+
+form select option {
+    text-align: center;
+}
+
+header nav {
+    width: 40vw;
+    height: 4vh;
+    margin: auto;
+    text-decoration: underline;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+header nav div {
+    border: 0;
+}
+
+header div {
+    width: 45%;
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+main table, tr, td {
+    margin: auto;
+    background-color: aliceblue;
+    border: 1px black solid;
+    width: 48vw;
+    height: 24vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 4px;
+}
+
+#c1{
+    border-top: none;
+    border-left: none;
+}
+#c2{
+    border-top: none;
+}
+#c3{
+    border-top: none;
+    border-right: none;
+}
+#c4{
+    border-left: none;
+}
+#c6{
+    border-right: none;
+}
+#c7{
+    border-left: none;
+    border-bottom: none;
+}
+#c8{
+    border-bottom: none;
+}
+#c9{
+    border-right: none;
+    border-bottom: none;
+}
